@@ -1,3 +1,5 @@
+import sys
+sys.path.append('./')
 from sub import sub_number
 
 def test_sub():
