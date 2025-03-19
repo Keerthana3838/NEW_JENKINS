@@ -31,7 +31,7 @@ pipeline {
                 echo 'Deploying application'
                 bat '''
                     call venv\\Scripts\\activate
-                    python sub.py
+                    python subtract.py
                     '''
             }
         }
