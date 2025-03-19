@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout code') {
             steps {
-                git credentialsid : 'PATDemo' , url : 'https://github.com/Keerthana3838/NEW_JENKINS.git' , branch : 'master'
+                git credentialsId : 'PATDemo' , url : 'https://github.com/Keerthana3838/NEW_JENKINS.git' , branch : 'master'
 
             }
         }
